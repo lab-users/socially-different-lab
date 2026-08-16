@@ -1024,6 +1024,11 @@ a {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.member-list-former {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 78%;
+}
+
 .member {
   display: flex;
   min-width: 0;
@@ -2225,9 +2230,12 @@ a {
 
   .member-list-three,
   .member-list-grid,
-  .member-list-assistants {
+  .member-list-assistants,
+  .member-list-former {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .member-list-former { max-width: none; }
 
   .member-list-grid {
     gap: 22px 12px;
