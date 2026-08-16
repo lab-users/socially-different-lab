@@ -247,7 +247,7 @@ registerLanguage(".brand-copy small", "Lab · Peking University", "实验室 · 
 registerLanguageList(".site-nav > a", ["Research", "Approach", "Team", "Publications", "Culture", "Resources", "Join us"], ["研究", "研究方法", "团队", "发表成果", "实验室文化", "资源", "加入我们"]);
 registerLanguage(".hero .eyebrow", '<span></span> Socially Different Lab · Peking University', '<span></span> 社交不一样研究室 · 北京大学');
 registerLanguageList(".hero h1 .title-line", ["Understanding social differences.", "Building room to breathe."], ["理解社交差异。", "让心灵拥有呼吸的空间。"]);
-registerLanguage(".hero-intro", "We study the many ways people connect, withdraw, adapt, and heal—bringing rigorous psychological science to real lives shaped by social anxiety, autism, interpersonal trauma, and more.", "我们研究人们建立连接、退缩、适应与疗愈的多种方式，将严谨的心理科学带入被社交焦虑、孤独症、人际创伤等经历塑造的真实生活。");
+registerLanguage(".hero-intro", "We study the many ways people connect, withdraw, adapt, and heal—bringing rigorous psychological science to real lives shaped by social anxiety, autism, interpersonal trauma, and more.", "我们研究人们建立连接、退缩、适应与疗愈的多种方式，用严谨的心理科学回应那些受社交焦虑、孤独症、人际创伤等经历影响的真实人生。");
 registerLanguage(".hero-actions .button-primary", 'Explore our research <span aria-hidden="true">↘</span>', '探索我们的研究 <span aria-hidden="true">↘</span>');
 registerLanguage(".hero-actions .button-quiet", 'Work with us <span aria-hidden="true">→</span>', '与我们一起工作 <span aria-hidden="true">→</span>');
 registerLanguageList(".map-node span", ["feel", "notice", "connect", "belong"], ["感受", "觉察", "连接", "归属"]);
@@ -265,7 +265,7 @@ registerLanguage(".principle-card small", "Rigor and humanity belong in the same
 registerLanguage(".research .section-heading .eyebrow", '<span></span> Research themes', '<span></span> 研究主题');
 registerLanguage(".research .section-heading h2", "Where connection<br>becomes complex.", "连接<br>变得复杂的地方。");
 registerLanguage(".research .section-heading > p", "Social difficulties emerge through intertwined emotional, cognitive, interpersonal, family, and cultural processes. We examine these layers together rather than in isolation.", "社交困难产生于情绪、认知、人际、家庭与文化过程的交织。我们将这些层面放在一起理解，而不是孤立地看待它们。");
-registerLanguageList(".theme-card h3", ["Social Anxiety<br>&amp; Emotion", "Autism &amp;<br>Social Cognition", "Interpersonal<br>Trauma", "Culture, Well-being<br>&amp; Intervention"], ["社交焦虑<br>与情绪", "孤独症与<br>社会认知", "人际<br>创伤", "文化、福祉<br>与干预"]);
+registerLanguageList(".theme-card h3", ["Social Anxiety<br>&amp; Emotion", "Autism &amp;<br>Social Cognition", "Interpersonal<br>Trauma", "Culture, Well-being<br>&amp; Intervention"], ["社交焦虑<br>与情绪", "孤独症与<br>社会认知", "人际<br>创伤", "文化、身心健康<br>与干预"]);
 registerLanguageList(".theme-card > p:not(.card-number)", [
   "Attention, avoidance, self-focus, and the emotional processes that make social situations feel threatening.",
   "How people perceive, interpret, and respond to social information across diverse neurocognitive profiles.",
@@ -281,12 +281,12 @@ registerLanguageList(".theme-card .tag-list li", ["Attention", "Affect", "Avoida
 
 registerLanguage(".approach .eyebrow", '<span></span> How we work', '<span></span> 工作方式');
 registerLanguage(".approach h2", "Many signals.<br>One human story.", "多种信号。<br>一个人的故事。");
-registerLanguage(".approach-sticky > p:last-child", "No single measure can explain a social life. We combine perspectives and methods to trace mechanisms across experience, behavior, body, brain, and context.", "没有任何单一测量能够解释一个人的社会生活。我们结合多种视角与方法，追踪经验、行为、身体、大脑与情境之间的机制。");
+registerLanguage(".approach-sticky > p:last-child", "No single measure can explain a social life. We combine perspectives and methods to trace mechanisms across experience, behavior, body, brain, and context.", "没有任何单一测量能够解释一个人的社交生活。我们结合多种视角与方法，追踪经验、行为、身体、大脑与情境之间的机制。");
 registerLanguageList(".method-list h3", ["Listen", "Measure", "Observe", "Map", "Model", "Translate"], ["倾听", "测量", "观察", "绘制", "建模", "转化"]);
 registerLanguageList(".method-list p", ["Qualitative inquiry and lived experience", "Surveys, psychometrics, and longitudinal designs", "Behavioral experiments and eye tracking", "Psychophysiology and neuroimaging", "AI-assisted, interpretable analysis of social interaction", "Precise, practical, evidence-based interventions"], ["质性研究与生活经验", "问卷、心理测量与纵向设计", "行为实验与眼动追踪", "心理生理学与神经影像", "AI辅助、可解释的社会互动分析", "精准、实用、循证的干预"]);
 
 registerLanguage(".team .section-heading .eyebrow", '<span></span> Team', '<span></span> 团队');
-registerLanguage(".team .section-heading h2", "A growing community<br>of curious minds.", "一群不断成长的<br>好奇心灵。");
+registerLanguage(".team .section-heading h2", "A growing community<br>of curious minds.", "一群好奇的<br>同行者。");
 registerLanguage(".team .section-heading > p", "We bring together clinical psychology, social cognition, computational methods, and a shared commitment to careful, collaborative science. Select a portrait to meet the person behind the research.", "我们汇聚临床心理学、社会认知与计算方法，并共同坚持严谨、合作的科学实践。点击头像，认识研究背后的那个人。");
 registerLanguage(".pi-copy .eyebrow", '<span></span> Principal investigator', '<span></span> 首席研究员');
 registerLanguage(".pi-role", "Research Professor · Doctoral Supervisor · Clinical Psychologist", "研究员 · 博士生导师 · 临床心理学家");
@@ -297,13 +297,13 @@ registerLanguageList(".group-head p", ["Doctoral researchers", "Master's researc
 registerLanguageList(".member-copy small", ["Doctoral researcher", "Doctoral · 2026", "Doctoral researcher", "Master's · 2025", "Master's · 2024", "Master's · 2025", "Undergraduate · 2022", "Undergraduate · 2023", "Undergraduate · 2025", "Undergraduate · 2024", "Undergraduate · 2024", "Undergraduate researcher", "Undergraduate researcher", "Undergraduate researcher", "Undergraduate · 2022", "Undergraduate · 2022", "Research assistant", "Research assistant"], ["博士研究生", "博士生 · 2026级", "博士研究生", "硕士生 · 2025级", "硕士生 · 2024级", "硕士生 · 2025级", "本科生 · 2022级", "本科生 · 2023级", "本科生 · 2025级", "本科生 · 2024级", "本科生 · 2024级", "本科生", "本科生", "本科生", "本科生 · 2022级", "本科生 · 2022级", "科研助理", "科研助理"]);
 
 registerLanguage(".publications .section-heading .eyebrow", '<span></span> Selected work', '<span></span> 代表性成果');
-registerLanguage(".publications .section-heading h2", "Research that travels<br>across boundaries.", "跨越边界<br>持续发生的研究。");
+registerLanguage(".publications .section-heading h2", "Research that travels<br>across boundaries.", "研究，<br>跨越边界。");
 registerLanguage(".text-link-light", "View full publication list <span aria-hidden=\"true\">↗</span>", "查看完整成果列表 <span aria-hidden=\"true\">↗</span>");
-registerLanguageList(".publication h3", ["The Alexithymia Hypothesis of Autism Revisited", "Scalable and Interpretable Autism Detection", "Self-focused Attention vs. Negative Attentional Bias", "Bullies Get Away With It—but Not Everywhere"], ["重新审视孤独症的述情障碍假说", "可扩展且可解释的孤独症识别", "自我关注与消极注意偏向", "欺凌者能够逃脱惩罚——但并非处处如此"]);
+registerLanguageList(".publication h3", ["The Alexithymia Hypothesis of Autism Revisited", "Scalable and Interpretable Autism Detection", "Self-focused Attention vs. Negative Attentional Bias", "Bullies Get Away With It—but Not Everywhere"], ["重新审视孤独症的述情障碍假说", "可扩展且可解释的孤独症识别", "自我关注与消极注意偏向", "欺凌者并非在所有地方都能逃脱惩罚"]);
 registerLanguageList(".publication > p:not(.authors)", ["Alexithymia modulates social brain activity during facial affect recognition in autistic adults.", "Exploring autism detection from social interaction behavior using interpretable computational approaches.", "Examining attention during a public-speaking task in socially anxious individuals.", "A cross-cultural study of the mental-health sequelae of bullying in Chinese and German students."], ["述情障碍会调节孤独症成人在面部情绪识别过程中的社会脑活动。", "使用可解释的计算方法，从社会互动行为探索孤独症识别。", "考察社交焦虑个体在公开演讲任务中的注意过程。", "关于欺凌对中国与德国学生心理健康影响的跨文化研究。"]);
 
 registerLanguage(".culture-heading .eyebrow", '<span></span> Lab culture', '<span></span> 实验室文化');
-registerLanguage(".culture-heading h2", "How we want<br>to work together.", "我们希望如何<br>一起工作。");
+registerLanguage(".culture-heading h2", "How we want<br>to work together.", "我们期待的<br>共事方式。");
 registerLanguage(".culture-heading > p:last-child", "Good science depends on a culture where people can ask, challenge, collaborate, and take care of themselves.", "好的科学依赖一种文化：人们可以提问、质疑、合作，也可以照顾好自己。");
 registerLanguageList(".value-card h3", ["Speak early", "Think critically", "Grow together", "Stay human"], ["尽早沟通", "批判性思考", "共同成长", "保持人性"]);
 registerLanguageList(".value-card p", ["Ask questions, share uncertainty, and reach out before a problem becomes isolating.", "Care about evidence, challenge assumptions, and put research integrity first.", "Help generously, seek collaboration, and choose shared progress over competition.", "Protect well-being, respect life beyond work, and make room for different ways of thriving."], ["主动提问、分享不确定性，在问题让人孤立之前寻求帮助。", "重视证据、挑战假设，并把科研诚信放在首位。", "慷慨地互相帮助、寻求合作，让共同进步超越竞争。", "保护身心健康，尊重工作之外的生活，为不同的成长方式留出空间。"]);
@@ -315,7 +315,7 @@ registerLanguage(".resource-action", 'Open PKU Disk <span aria-hidden="true">↗
 registerLanguage(".resource-meta", "Permanent link · PKU Disk", "永久链接 · 北大网盘");
 registerLanguage(".join-card .eyebrow", '<span></span> Join Socially Different Lab', '<span></span> 加入社交不一样研究室');
 registerLanguage(".join h2", "Bring your questions.<br><em>Bring your whole self.</em>", "带上你的问题。<br><em>也带上完整的自己。</em>");
-registerLanguage(".join-card > p:not(.eyebrow):not(.join-note)", "We welcome doctoral and master's students, undergraduates, research assistants, interns, visiting students, and postdoctoral researchers who care about people and high-quality science.", "我们欢迎关心真实的人与高质量科学的博士生、硕士生、本科生、科研助理、实习生、访问学生与博士后研究者。");
+registerLanguage(".join-card > p:not(.eyebrow):not(.join-note)", "We welcome doctoral and master's students, undergraduates, research assistants, interns, visiting students, and postdoctoral researchers who care about people and high-quality science.", "我们欢迎关心真实的人、也重视高质量科学的博士生、硕士生、本科生、科研助理、实习生、访问学生与博士后研究者。");
 registerLanguage(".join-note", "Interdisciplinary backgrounds—including computer science, life sciences, medicine, and sociology—are especially welcome.", "我们尤其欢迎来自计算机科学、生命科学、医学与社会学等不同学科背景的申请者。");
 registerLanguage(".join-actions .button-white", 'Start a conversation <span aria-hidden="true">↗</span>', '开始交流 <span aria-hidden="true">↗</span>');
 registerLanguage(".join-actions .button-outline-light", "Current opportunities", "当前机会");
@@ -326,11 +326,11 @@ registerLanguage(".footer-grid > .footer-col:nth-child(3) .footer-label", "Conta
 registerLanguage(".footer-grid > .footer-col:nth-child(4) .footer-label", "Explore", "探索");
 registerLanguage(".footer-grid > .footer-col:nth-child(2) address", "Room 212, Philosophy Building<br>Peking University<br>Beijing, China", "北京大学哲学楼212室<br>中国，北京");
 registerLanguageList(".footer-grid > .footer-col:nth-child(4) a", ["Research", "Team", "Publications", "Resources", "Join us"], ["研究", "团队", "发表成果", "资源", "加入我们"]);
-registerLanguage(".footer-bottom p:nth-child(2)", "Science with rigor, warmth, and room to breathe.", "以严谨、温度与呼吸空间开展科学研究。");
+registerLanguage(".footer-bottom p:nth-child(2)", "Science with rigor, warmth, and room to breathe.", "用严谨与温度，为科学留出呼吸空间。");
 registerLanguage(".footer-bottom a", "Back to top ↑", "返回顶部 ↑");
 
 registerLanguage(".profile-content > .eyebrow", '<span></span> Meet the team', '<span></span> 认识团队');
-registerLanguageList(".profile-detail h3", ["About", "Current interests", "Beyond research", "A note from me"], ["关于我", "当前兴趣", "研究之外", "我想分享"]);
+registerLanguageList(".profile-detail h3", ["About", "Current interests", "Beyond research", "A note from me"], ["关于我", "当前兴趣", "研究之外", "想对你说"]);
 
 const exactTextTranslations = {
   "Clinical Psychologist": "临床心理学家",
