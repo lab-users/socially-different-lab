@@ -36,6 +36,14 @@ const memberProfiles = {
     position: "center 30%",
     quote: "Strive ceaselessly for self-improvement; carry the world with profound virtue."
   },
+  "jingyi-yu": {
+    name: "Jingyi Yu",
+    role: "Research assistant",
+    image: "assets/team/jingyi-yu.jpg",
+    position: "center 30%",
+    research: "Artificial intelligence and mental health.",
+    quote: "A good person."
+  },
   "xinyi-bao": {
     name: "Xinyi Bao",
     role: "Undergraduate student · 2025 cohort",
@@ -59,6 +67,15 @@ const memberProfiles = {
     position: "center 44%",
     quote: "In a scholar's robe, with paper and pen, one may bring order to the world—who says a person of deep feeling is any less courageous?"
   },
+  "junwen-mo": {
+    name: "Junwen Mo",
+    role: "Doctoral student · 2026 cohort",
+    image: "assets/team/junwen-mo.jpg",
+    position: "center 30%",
+    research: "Autistic adults and other important, open questions in social psychology.",
+    hobbies: "Music across Chinese, American, European, and Korean pop; strength training; and ball sports.",
+    quote: "The moments that unsettle you will ultimately become the depth at which your convictions take root—for uncertainty is the most earnest trace of a thinking mind."
+  },
   "siyu-ma": {
     name: "Siyu Ma",
     role: "Undergraduate student · 2022 cohort",
@@ -66,6 +83,22 @@ const memberProfiles = {
     position: "center 30%",
     research: "Autism, social difficulties, and patterns of communication.",
     hobbies: "Skiing, photography, and good food."
+  },
+  "qianli-ma": {
+    name: "Qianli Ma",
+    role: "Undergraduate student · 2025 cohort",
+    image: "assets/team/qianli-ma.jpg",
+    position: "center 28%",
+    research: "Social anxiety and emotion.",
+    hobbies: "Reading, writing, and travel."
+  },
+  "qianqian-wang": {
+    name: "Qianqian Wang",
+    role: "Undergraduate researcher",
+    image: "assets/team/qianqian-wang.jpg",
+    position: "center 28%",
+    research: "Autism and social disorders.",
+    hobbies: "Eating and listening to music."
   },
   "zhezhen-song": {
     name: "Zhezhen Song",
@@ -104,10 +137,14 @@ const memberProfileTranslations = {
   "mei-yang": { name: "杨梅", role: "硕士研究生 · 2024级", research: "儿童与青少年心理健康；依恋与家庭治疗；成年人焦虑与抑郁。", hobbies: "阅读、工作。" },
   "haichen-zhang": { name: "张海辰", role: "本科生 · 2024级", research: "社交焦虑与相关社交困难和障碍。", hobbies: "看小说、听歌、玩剧本杀。" },
   "kairan-wang": { name: "王慨然", role: "本科生 · 2023级 · 科研助理", quote: "自强不息，厚德载物。" },
+  "jingyi-yu": { name: "余婧一", role: "科研助理", research: "人工智能与心理健康。", quote: "好人。" },
   "xinyi-bao": { name: "鲍馨仪", role: "本科生 · 2025级", about: "我喜欢的作品之一是关于青少年心理健康的《All the Bright Places》。希望多多向老师和学长学姐们学习。", hobbies: "画画、音乐、美食。" },
   "anting-xie": { name: "谢安婷", role: "本科生 · 2022级", about: "什么方向都做一点的心理＋AI科研人。", hobbies: "唱歌。" },
   "chuangyi-du": { name: "杜创一", role: "博士生 · 2026级", quote: "长袍纸笔安天下，谁言情长不丈夫。" },
+  "junwen-mo": { name: "莫珺雯", role: "博士研究生 · 2026级", research: "主要关注孤独症成人群体，以及其他有待解决的重要问题。人在哪里，心理就在哪里。", hobbies: "音乐（横跨华语、欧美与韩流）、健身、打球。", quote: "那些让你动摇的瞬间，终将成为信仰扎根的深度，因为困惑恰是思考者最虔诚的印迹。" },
   "siyu-ma": { name: "马斯羽", role: "本科生 · 2022级", research: "孤独症、社交困难与交流模式。", hobbies: "滑雪、拍照、美食。" },
+  "qianli-ma": { name: "马千里", role: "本科生 · 2025级", research: "社交焦虑、情绪。", hobbies: "阅读、写作、旅行。" },
+  "qianqian-wang": { name: "王芊芊", role: "本科生", research: "孤独症、社交障碍。", hobbies: "喜欢吃，也喜欢听歌。" },
   "zhezhen-song": { name: "宋哲镇", role: "硕士研究生 · 2025级", about: "中中混血、华籍华人、TB资深买手、东VIP会员、奶茶品鉴师、国家级身份证持有者、C1D驾驶证准驾、诺贝尔奖觊觎者、Internet冲浪达人。" },
   "xiaoya-wen": { name: "文小丫", role: "本科生 · 2024级", about: "内向与外向并存，比较抽象，努力经营自己的呆萌人生。希望在了解他人的同时更好地了解自己。", research: "社交困难、情绪与自我认知。", hobbies: "各种球类、长跑、画小萌物、毛茸茸的小动物，以及给朋友做手工礼物。", quote: "让我们一起努力努力！" },
   "jiawen-li": { name: "李嘉文", role: "硕士研究生 · 2025级", quote: "前进！前进！" },
@@ -295,7 +332,7 @@ registerLanguageList(".pi-facts span", ["Peking University, PhD", "Humboldt Rese
 registerLanguageList(".pi-links a", ["University profile <span aria-hidden=\"true\">↗</span>", "Email Dr. Lin <span aria-hidden=\"true\">↗</span>"], ["学校主页 <span aria-hidden=\"true\">↗</span>", "联系林老师 <span aria-hidden=\"true\">↗</span>"]);
 registerLanguageList(".group-head p", ["Current members", "Former members"], ["现成员", "曾经成员"]);
 registerLanguageList(".member-copy strong", ["Chuangyi Du", "Haichen Zhang", "Jiawen Li", "Jingyi Yu", "Junwen Mo", "Kairan Wang", "Mei Yang", "Qianli Ma", "Qianqian Wang", "Rong Wang", "Xiaoya Wen", "Xinyi Bao", "Xinzhao Feng", "Zhezhen Song", "Anting Xie", "Siyu Ma", "Xintong Wu"], ["杜创一", "张海辰", "李嘉文", "余婧一", "莫珺雯", "王慨然", "杨梅", "马千里", "王芊芊", "王荣", "文小丫", "鲍馨仪", "冯新照", "宋哲镇", "谢安婷", "马斯羽", "吴欣彤"]);
-registerLanguageList(".member-copy small", ["Doctoral · 2026", "Undergraduate · 2024", "Master's · 2025", "Research assistant", "Doctoral researcher", "Undergraduate · 2023 · Research assistant", "Master's · 2024", "Undergraduate researcher", "Undergraduate researcher", "Doctoral researcher", "Undergraduate · 2024", "Undergraduate · 2025", "Research assistant", "Master's · 2025", "Former member · Undergraduate · 2022", "Former member · Undergraduate · 2022", "Former member · Undergraduate · 2022"], ["博士生 · 2026级", "本科生 · 2024级", "硕士生 · 2025级", "科研助理", "博士研究生", "本科生 · 2023级 · 科研助理", "硕士生 · 2024级", "本科生", "本科生", "博士研究生", "本科生 · 2024级", "本科生 · 2025级", "科研助理", "硕士生 · 2025级", "曾经成员 · 本科生 · 2022级", "曾经成员 · 本科生 · 2022级", "曾经成员 · 本科生 · 2022级"]);
+registerLanguageList(".member-copy small", ["Doctoral · 2026", "Undergraduate · 2024", "Master's · 2025", "Research assistant", "Doctoral researcher · 2026", "Undergraduate · 2023 · Research assistant", "Master's · 2024", "Undergraduate · 2025", "Undergraduate researcher", "Doctoral researcher", "Undergraduate · 2024", "Undergraduate · 2025", "Research assistant", "Master's · 2025", "Former member · Undergraduate · 2022", "Former member · Undergraduate · 2022", "Former member · Undergraduate · 2022"], ["博士生 · 2026级", "本科生 · 2024级", "硕士生 · 2025级", "科研助理", "博士研究生 · 2026级", "本科生 · 2023级 · 科研助理", "硕士生 · 2024级", "本科生 · 2025级", "本科生", "博士研究生", "本科生 · 2024级", "本科生 · 2025级", "科研助理", "硕士生 · 2025级", "曾经成员 · 本科生 · 2022级", "曾经成员 · 本科生 · 2022级", "曾经成员 · 本科生 · 2022级"]);
 
 registerLanguage(".publications .section-heading .eyebrow", '<span></span> Selected work', '<span></span> 代表性成果');
 registerLanguage(".publications .section-heading h2", "Selected<br>publications.", "代表性<br>成果。");
